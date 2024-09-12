@@ -1,0 +1,80 @@
+body {
+    background-image: url("gambar/pi1.JPG");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+body:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: -1;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Lucida Cerah;
+}
+
+p {
+    color: rgb(99, 95, 160);
+    text-align: justify;
+    font-family: cambria;
+    padding: 20px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: Lucida Cerah;
+}
+
+h4 {
+    color: rgb(99, 95, 160);
+    text-align: center;
+    font-family: cambria;
+    padding: 20px;
+}
+
+h5 {
+    color: rgb(99, 95, 160);
+    text-align: center;
+    font-family: cambria;
+    padding: 20px;
+}
+
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
+    background: #ecf0f9;
+    border-radius: 50px;
+    padding: 2px 15px;
+}
+
+.portfolio #portfolio-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #322f5a;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+}

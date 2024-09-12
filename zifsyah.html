@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Aldy</title>
+    <!-- Link CDN Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'cambria', sans-serif;
+            background-image: url("gambar/pi1.JPG");
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 0;
+        }
+        
+        .about-content {
+            display: flex;
+            align-items: center;
+        }
+        
+        .image-container {
+            margin-right: 50px;
+            border: 10px solid #d5b48c;
+        }
+        
+        .image-container img {
+            width: 300px;
+            height: auto;
+            display: block;
+        }
+        
+        .text-container {
+            max-width: 600px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: beige;
+        }
+        
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #2e2e2e;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            color: aliceblue;
+        }
+        
+        ul li:before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #d5b48c;
+            font-weight: bold;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #d5b48c;
+            font-size: 18px;
+        }
+        
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .social-icons a {
+            font-size: 40px;
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .social-icons a:hover {
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="image-container">
+                    <img src="gambar/zifsyah.JPG" alt="Profile Photo">
+                </div>
+                <div class="text-container">
+                    <h1>PROFILE</h1>
+                    <h2>Zifsya Nurbalqis</h2>
+                    <ul>
+                        <li>Tanggal Lahir: 20 September 2004</li>
+                        <li>Program Studi: Pendidikan Guru Sekolah Dasar</li>
+                        <li>Alamat : Palembang</li>
+                        <li>hobi : Memasak</li>
+                    </ul>
+                    <a href="strukturorganisasi.html">Kembali</a>
+
+                    <!-- Bagian Ikon Sosial Media -->
+                    <div class="social-icons">
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-x-twitter"></i></a>
+                        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/zifsya.nrblqs?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
